@@ -1,0 +1,15 @@
+{
+  "name": "mdn_css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine",
+    "build-css": "node-sass --include-path scss style1.scss style1.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Steve Smith",
+  "license": "Apache-2.0"
+}
