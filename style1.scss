@@ -30,3 +30,10 @@ a.homepage {
         background-color: #666;
     }
 }
+div.menu-bar ul ul {
+    display: none;
+}
+
+div.menu-bar li:hover > ul {
+    display: block;
+}
