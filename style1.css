@@ -1,35 +1,39 @@
-strong {
-  color: red;
-  text-decoration: underline; }
-
-p {
-  color: blue; }
-
-.carrot {
-  color: orange; }
-
-.spinach {
-  color: green; }
-
-#first {
-  font-style: italic; }
-
-a.homepage:link, a.homepage:visited {
-  padding: 1px 10px 1px 10px;
-  color: #fff;
-  background: #555;
-  border-radius: 3px;
-  border: 1px outset rgba(50, 50, 50, 0.5);
-  font-family: georgia, serif;
-  font-size: 14px;
-  font-style: italic;
-  text-decoration: none; }
-
-a.homepage:hover, a.homepage:focus, a.homepage:active {
-  background-color: #666; }
-
-div.menu-bar ul ul {
-  display: none; }
-
-div.menu-bar li:hover > ul {
-  display: block; }
+body {
+  background-color: #fffff4;
+  background: url("Blue-rule-ground.png");
+  font: 16px "Comic Sans MS", cursive;
+  line-height: 1em; }
+  body strong {
+    background-color: #ddf;
+    color: red;
+    font: 200% serif; }
+  body p.pin {
+    color: blue; }
+    body p.pin:before {
+      content: url("yellow-pin.png"); }
+  body .carrot {
+    color: orange; }
+  body .spinach {
+    color: green; }
+  body #first {
+    font-style: italic; }
+  body a.homepage:link, body a.homepage:visited {
+    padding: 1px 10px 1px 10px;
+    color: #fff;
+    background: #555;
+    border-radius: 3px;
+    border: 1px outset rgba(50, 50, 50, 0.5);
+    font-family: georgia, serif;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: none; }
+  body a.homepage:hover, body a.homepage:focus, body a.homepage:active {
+    background-color: #666; }
+  body div.menu-bar ul ul {
+    display: none; }
+  body div.menu-bar li:hover > ul {
+    display: block; }
+  body .ref::before {
+    font-weight: bold;
+    color: navy;
+    content: "Reference: "; }
